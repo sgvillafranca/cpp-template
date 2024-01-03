@@ -1,0 +1,9 @@
+{
+  "project_name": "CPP Template",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "A CPP template.",
+  "version": "0.1.0",
+  "cpp_standard": ["17", "14", "11"],
+  "full_name": "Santiago González Villafranca",
+  "email": "sgonzalezvillafranca@gmail.org"
+}
