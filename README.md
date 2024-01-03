@@ -1,4 +1,4 @@
-# gradiant-cpp-template
+# C++ Template
 
 A [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template for C++ projects.
 
