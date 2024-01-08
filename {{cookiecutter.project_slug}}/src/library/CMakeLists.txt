@@ -12,14 +12,14 @@ set(
     ${BLOCK2}
 )
 
-# 3.  VINCULAMOS DICHA LISTA A LA LIBRERIA 'LIB'
+# 3. VINCULAMOS DICHA LISTA A LA LIBRERIA 'LIB'
 add_library(
     ${LIB}
     SHARED
     ${BLOCKS_LIST}
 )
 
-# 4.  INDICAR A CMAKE DÓNDE BUSCAR LAS CABECERAS (Opción A: Veáse CMakeLists de utils)
+# 4. INDICAR A CMAKE DÓNDE BUSCAR LAS CABECERAS (Opción A: Veáse CMakeLists de utils)
 target_include_directories(
     ${LIB}
     PUBLIC
