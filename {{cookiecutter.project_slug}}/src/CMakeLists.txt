@@ -1,5 +1,5 @@
 
-# Indicamos las librerias a compilar dentro de src
+# Librerias (subdirectorios) a compilar dentro de src
 add_subdirectory(utils)
 add_subdirectory(library)
 
@@ -29,7 +29,7 @@ target_compile_options(
     "-Wall" "-pedantic" "-Wextra"
 )
 
-# Linkeamos con  main los objetos (librerias compiladas) que queramos usar desde dicho ejecutable
+# - Linkeamos con main los objetos (librerias compiladas) que queramos usar desde dicho ejecutable
 target_link_libraries(
   ${MAIN}
   ${LIB}

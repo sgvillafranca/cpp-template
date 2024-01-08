@@ -24,7 +24,7 @@ $ ./src/main
 ## Testing
 In order to build and run the unit tests for this library, execute the following commands:
 
-Create a new directory to perform an out of source build
+Create a new directory to locate the build
 ```bash
 $ mkdir build && cd build
 Configure build
