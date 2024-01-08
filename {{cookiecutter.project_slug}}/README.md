@@ -27,8 +27,8 @@ In order to build and run the unit tests for this library, execute the following
 Create a new directory to locate the build
 ```bash
 mkdir build && cd build
-Configure build
 ```
+Configure build
 ```bash
 cmake ..
 ```
