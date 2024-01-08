@@ -1,28 +1,47 @@
-{{ cookiecutter.project_name }}
+# {{ cookiecutter.project_name }}
 {{ cookiecutter.project_short_description }}
 
-Building
+## Building
 In order to build the library, execute the following commands:
 
-# Create a new directory to perform an out of source build
+Create a new directory to locate the build
+```bash
 $ mkdir build && cd build
-# Configure build
+```
+Configure build
+```bash
 $ cmake ..
-# Perform build
+```
+Perform build
+```bash
 $ cmake --build .
-# Run main
+```
+Run main
+```bash
 $ ./src/main
+```
 
-Testing
+## Testing
 In order to build and run the unit tests for this library, execute the following commands:
 
-# Create a new directory to perform an out of source build
+Create a new directory to perform an out of source build
+```bash
 $ mkdir build && cd build
-# Configure build
+Configure build
+```bash
 $ cmake ..
-# Build unit tests
+```
+Build unit tests
+```bash
 $ cmake --build . --target tests_library 
+```
+```bash
 $ cmake --build . --target tests_utils
-# Run unit tests
+```
+Run unit tests
+```bash
 $ ./test/library/library_tests 
-$ ./test/library/utils_tests 
+```
+```bash
+$ ./test/library/utils_tests
+```
